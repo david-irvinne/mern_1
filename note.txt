@@ -1,0 +1,22 @@
+
+backend
+1. "npm init -y"
+2. make "dev": "node backend/server.js"
+3. install nodemon
+4. change "dev": "nodemon backend/server.js"
+
+
+
+frontend
+1. cd to frontend
+2. "npm create vite@latest ." choose react framework, javascript variant
+3. "npm i" = npm install
+4. go to https://v2.chakra-ui.com/getting-started/vite-guide
+5. delete css files
+6. modify App.jsx
+7. "npm run dev" to run frontend
+8. "npm i react-router-dom" for having multiple pages
+9. wrap <App/> in main.jsx with <BrowserRouter></BrowserRouter>
+10. delete assets folder
+11. install icon: "npm i react-icons"
+12. "npm i zustand"
